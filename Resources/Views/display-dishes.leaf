@@ -1,0 +1,46 @@
+
+
+       /* <h3>Dishes</h3>
+            
+            #set("content") {
+            
+            #for(dish in dishes) {
+            <p><b>#(dish.name)</b></p>
+            }
+            
+            }
+            
+            
+            #embed("base")
+
+*/
+
+
+
+
+
+<html>
+    
+    <head></head>
+    
+    <body>
+        
+        
+        <h3>Dishes</h3>
+        
+        <ul class="menu">
+            <li><a href="/index">Home</a></li>
+            <li><a href="/ad-new-dish">New Dish</a></li>
+            <li><a href="/contact-us">Contact Us</a></li>
+        </ul>
+        
+        #for(dish in dishes) {
+        <p><b>#(dish.name)</b></p>
+        }
+        
+        
+        
+    </body>
+    
+</html>
+            
