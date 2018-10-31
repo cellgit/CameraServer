@@ -11,6 +11,10 @@ struct DisplayDishesContext: Encodable {
     
 }
 
+struct DisplayHotKeysContext: Encodable {
+    var hotkeys: [HotKeyModel]
+}
+
 
 /// Register your application's routes here.
 public func routes(_ router: Router) throws {
@@ -80,7 +84,14 @@ public func routes(_ router: Router) throws {
     }
     
     
-    /// 批量组织路由
+    
+    router.post(HotKeyModel.self, at: "/hotkey") { req, hotkey -> Future<HotKeyModel> in
+        return hotkey.save(on: req)
+    }
+    
+    router.post("/hotkeys") { req -> Future<[HotKeyModel]> in
+        return HotKeyModel.query(on: req).all()
+    }
     
     
     
