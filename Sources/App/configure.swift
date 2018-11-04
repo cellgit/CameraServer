@@ -76,10 +76,10 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     var migrations = MigrationConfig()
     
     
-    migrations.add(model: Dish.self, database: .psql)
-    migrations.add(migration: AddingDescriptionToDishes.self, database: .psql)
+//    migrations.add(model: Dish.self, database: .psql)
+//    migrations.add(migration: AddingDescriptionToDishes.self, database: .psql)
     migrations.add(model: HotKeyModel.self, database: .psql)
-    migrations.add(migration: AddingDescriptionToHotKeys.self, database: .psql)
+//    migrations.add(migration: AddingDescriptionToHotKeys.self, database: .psql)
     
     
 //    migrations.add(model: Todo.self, database: .sqlite)
