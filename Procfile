@@ -1,1 +1,1 @@
-web: Run serve --env production --port $PORT --hostname 127.0.0.1
+web: Run serve --env production --port $PORT --hostname 0.0.0.0
