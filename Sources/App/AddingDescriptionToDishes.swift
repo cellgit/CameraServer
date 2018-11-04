@@ -23,9 +23,7 @@ class AddingDescriptionToDishes: Migration {
     
     static func revert(on conn: PostgreSQLConnection) -> EventLoopFuture<Void> {
         return Database.update(Dish.self, on: conn) { builder in
-//            builder.field(for: \.description)
             builder.deleteField(for: \.name)
         }
     }
-    
 }

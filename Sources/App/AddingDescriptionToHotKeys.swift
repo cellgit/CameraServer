@@ -22,11 +22,20 @@ class AddingDescriptionToHotKeys: Migration {
         }
     }
     
+
     static func revert(on conn: PostgreSQLConnection) -> EventLoopFuture<Void> {
         return Database.update(HotKeyModel.self, on: conn) { builder in
             //            builder.field(for: \.description)
             builder.deleteField(for: \.hotkey)
         }
     }
+
+//    static func revert(on conn: PostgreSQLConnection) -> EventLoopFuture<Void> {
+//        return Database.update(HotKeyModel.self, on: conn) { builder in
+//            //            builder.field(for: \.description)
+//            builder.deleteField(for: \.description)
+//        }
+//    }
+
     
 }

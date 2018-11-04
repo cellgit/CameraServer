@@ -37,6 +37,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     }
     else {
         databaseConfig = PostgreSQLDatabaseConfig(hostname: "localhost",
+
 //                                                  port: 5432,
                                                   username: "postgres",
                                                   database: "kokora")
