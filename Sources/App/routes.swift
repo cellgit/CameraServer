@@ -35,14 +35,14 @@ public func routes(_ router: Router) throws {
     }
     
     
-    router.get("display-dishes") { req -> Future<View> in
-        let dishes = [Dish(id: 1, name: "Lily", course: "iOS", price: "100", imageURL: "baidu.com", description: "Udemy course is expensive1!"),
-                      Dish(id: 2, name: "Luly", course: "iOS", price: "200", imageURL: "sina.com", description: "Udemy course is expensive2!"),
-                      Dish(id: 3, name: "Make", course: "iOS", price: "300", imageURL: "youtube.com", description: "Udemy course is expensive3!")]
-        
-        let ctx = DisplayDishesContext(dishes: dishes)
-        return try req.view().render("display-dishes", ctx)
-    }
+//    router.get("display-dishes") { req -> Future<View> in
+//        let dishes = [Dish(id: 1, name: "Lily", course: "iOS", price: "100", imageURL: "baidu.com", description: "Udemy course is expensive1!"),
+//                      Dish(id: 2, name: "Luly", course: "iOS", price: "200", imageURL: "sina.com", description: "Udemy course is expensive2!"),
+//                      Dish(id: 3, name: "Make", course: "iOS", price: "300", imageURL: "youtube.com", description: "Udemy course is expensive3!")]
+//
+//        let ctx = DisplayDishesContext(dishes: dishes)
+//        return try req.view().render("display-dishes", ctx)
+//    }
     
     
     
@@ -61,27 +61,27 @@ public func routes(_ router: Router) throws {
     
     
     
-    router.post(Dish.self, at: "/dishes") { req, dish -> Future<Dish> in
-        return dish.save(on: req)
-    }
-    
-    router.get("/dishes") { req -> Future<[Dish]> in
-        return Dish.query(on: req).all()
-    }
-    
-    router.get("/dishes", Dish.parameter) { req -> Future<Dish> in
-        return try req.parameters.next(Dish.self)
-    }
+//    router.post(Dish.self, at: "/dishes") { req, dish -> Future<Dish> in
+//        return dish.save(on: req)
+//    }
+//
+//    router.get("/dishes") { req -> Future<[Dish]> in
+//        return Dish.query(on: req).all()
+//    }
+//
+//    router.get("/dishes", Dish.parameter) { req -> Future<Dish> in
+//        return try req.parameters.next(Dish.self)
+//    }
 
     
-    router.delete("/dishes", Dish.parameter) { req -> Future<Dish> in
-        return try req.parameters.next(Dish.self).delete(on: req)
-    }
-    
-    
-    router.put(Dish.self, at: "/dishes") { req, dish -> Future<Dish> in
-        return dish.update(on: req)
-    }
+//    router.delete("/dishes", Dish.parameter) { req -> Future<Dish> in
+//        return try req.parameters.next(Dish.self).delete(on: req)
+//    }
+//
+//
+//    router.put(Dish.self, at: "/dishes") { req, dish -> Future<Dish> in
+//        return dish.update(on: req)
+//    }
     
     
     

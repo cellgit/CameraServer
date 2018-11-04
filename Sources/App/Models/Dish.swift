@@ -15,17 +15,14 @@ final class Dish: Content {
     var course: String
     var price: String
     var imageURL: String
-    var description: String
     
     
-    init(id: Int, name: String, course: String, price: String, imageURL: String, description: String) {
+    init(id: Int, name: String, course: String, price: String, imageURL: String) {
 //        self.id = id
         self.name = name
         self.course = course
         self.price = price
         self.imageURL = imageURL
-        self.description = description
-        
     }
     
 }
