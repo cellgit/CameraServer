@@ -17,15 +17,12 @@ final class HotKeyModel: Content {
     var hotkey: String
     /// 快捷键功能
     var function: String
-    /// 快捷键描述
-    var description: String
     
     
-    init(id: Int, hotkey: String, function: String, description: String) {
+    init(id: Int, hotkey: String, function: String) {
         //        self.id = id
         self.hotkey = hotkey
         self.function = function
-        self.description = description
     }
     
 }
