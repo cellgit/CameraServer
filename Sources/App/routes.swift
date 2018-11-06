@@ -92,22 +92,18 @@ public func routes(_ router: Router) throws {
     
     
     
-    router.post(HotKeyModel.self, at: "/hotkey") { req, hotkey -> Future<HotKeyModel> in
-        return hotkey.save(on: req)
-    }
+//    router.post(HotKeyModel.self, at: "/hotkey") { req, hotkey -> Future<HotKeyModel> in
+//        return hotkey.save(on: req)
+//    }
+//
+//    router.post("/hotkeys") { req -> Future<[HotKeyModel]> in
+//        return HotKeyModel.query(on: req).all()
+//    }
     
-    router.post("/hotkeys") { req -> Future<[HotKeyModel]> in
-        return HotKeyModel.query(on: req).all()
-    }
     
-    
-    
+    try router.register(collection: HotKeyController())
     
     
     try router.register(collection: EpisodesRouteCollection())
-    
-    
-    
-    
     
 }
