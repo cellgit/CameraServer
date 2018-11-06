@@ -26,10 +26,6 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     var databases = DatabasesConfig()
     
     let databaseConfig:PostgreSQLDatabaseConfig
-//    databaseConfig = PostgreSQLDatabaseConfig(hostname: "localhost",
-//                                              port: 5432,
-//                                              username: "postgres",
-//                                              database: "kokora")
     
     if let url = Environment.get("DATABASE_URL") {
 //        databaseConfig = try PostgreSQLDatabaseConfig(url: url)
@@ -37,56 +33,20 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     }
     else {
         databaseConfig = PostgreSQLDatabaseConfig(hostname: "localhost",
-
-//                                                  port: 5432,
                                                   username: "postgres",
                                                   database: "kokora")
     }
-    
-//    if let url = Environment.get("DATABASE_URL") {
-//        guard let urlConfig = PostgreSQLDatabaseConfig(url: url) else {
-//            fatalError("Failed to create PostgresConfig")
-//        }
-//        databaseConfig = urlConfig
-//    } else {
-//        let databaseName: String
-//        let databasePort: Int
-//        if (env == .testing) {
-//            databaseName = "vapor-test"
-//            if let testPort = Environment.get("DATABASE_PORT") {
-//                databasePort = Int(testPort) ?? 5433
-//            } else {
-//                databasePort = 5433
-//            }
-//        }
-//        else {
-//            databaseName = Environment.get("DATABASE_DB") ?? "vapor"
-//            databasePort = 5432
-//        }
-//        let hostname = Environment.get("DATABASE_HOSTNAME") ?? "localhost"
-//        let username = Environment.get("DATABASE_USER") ?? "vapor"
-//        let password = Environment.get("DATABASE_PASSWORD") ?? "password"
-//        databaseConfig = PostgreSQLDatabaseConfig(hostname: hostname, port: databasePort, username: username, database: databaseName, password: password)
-//    }
-    
     
     
     let database = PostgreSQLDatabase(config: databaseConfig)
     databases.add(database: database, as: .psql)
     services.register(databases)
-    /// Configure migrations
+    
+    
+    
     var migrations = MigrationConfig()
-    
-    
-//    migrations.add(model: Dish.self, database: .psql)
-//    migrations.add(migration: AddingDescriptionToDishes.self, database: .psql)
-    migrations.add(model: HotKeyModel.self, database: .psql)
-//    migrations.add(migration: AddingDescriptionToHotKeys.self, database: .psql)
-    
-    
-//    migrations.add(model: Todo.self, database: .sqlite)
+//    migrations.add(model: HotKeyModel.self, database: .psql)
+    migrations.setupModels()
     services.register(migrations)
-    
     config.prefer(LeafRenderer.self, for: ViewRenderer.self)
-
 }

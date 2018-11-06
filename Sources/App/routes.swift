@@ -34,6 +34,13 @@ public func routes(_ router: Router) throws {
         return try req.view().render("index", ctx)
     }
     
+    router.get("leafmd") { req -> Future<View> in
+        let ctx = WelcomeContext(message: "Welcome to LeafTemplates!")
+        return try req.view().render("leaf_md", ctx)
+    }
+    
+    //leaf_md
+    
     
 //    router.get("display-dishes") { req -> Future<View> in
 //        let dishes = [Dish(id: 1, name: "Lily", course: "iOS", price: "100", imageURL: "baidu.com", description: "Udemy course is expensive1!"),
