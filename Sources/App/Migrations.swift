@@ -15,5 +15,11 @@ extension MigrationConfig {
         add(model: HotKeyModel.self, database: .psql)
         
         
+        add(model: User.self, database: .psql)
+        add(model: AccessToken.self, database: .psql)
+        add(model: RefreshToken.self, database: .psql)
+        add(model: UserInfo.self, database: .psql)
+        add(model: MyModel.self, database: .psql)
+        
     }
 }

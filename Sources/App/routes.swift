@@ -103,7 +103,12 @@ public func routes(_ router: Router) throws {
     
     try router.register(collection: HotKeyController())
     
-    
     try router.register(collection: EpisodesRouteCollection())
+    
+    
+    
+    
+    try router.register(collection: UserController())
+    try router.register(collection: AuthenRouteController())
     
 }

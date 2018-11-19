@@ -58,20 +58,3 @@ extension UserInfo {
         return self
     }
 }
-
-
-
-import Vapor
-struct UserInfoContainer: Content {
-    
-    var token:String
-    
-    var age: Int?
-    var sex: Int?
-    var nickName: String?
-    var phone: String?
-    var birthday: String?
-    var location: String?
-    var picImage: File?
-    
-}
