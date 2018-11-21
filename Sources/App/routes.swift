@@ -110,5 +110,6 @@ public func routes(_ router: Router) throws {
     
     try router.register(collection: UserController())
     try router.register(collection: AuthenRouteController())
+    try router.register(collection: RecordController())
     
 }

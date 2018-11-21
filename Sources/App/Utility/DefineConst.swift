@@ -20,14 +20,14 @@ struct ImagePath {
     static let note = "note" //
 }
 
-public let pageCount = 20
-public let ImageMaxByteSize = 2048000
+public let pageCount = 20   // 每页数量
+public let ImageMaxByteSize = 2048000   // 图片大小
 
-public let PasswordMaxCount = 18
-public let passwordMinCount = 6
+public let PasswordMaxCount = 18    // 密码最大长度
+public let passwordMinCount = 6     // 密码最小长度
 
-public let AccountMaxCount = 18
-public let AccountMinCount = 6
+public let AccountMaxCount = 18     // 账号最大长度
+public let AccountMinCount = 6      // 账号最小z长度
 
 
 

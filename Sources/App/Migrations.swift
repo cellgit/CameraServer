@@ -20,6 +20,8 @@ extension MigrationConfig {
         add(model: RefreshToken.self, database: .psql)
         add(model: UserInfo.self, database: .psql)
         add(model: MyModel.self, database: .psql)
+        add(model: Record.self, database: .psql)
+        add(model: Report.self, database: .psql)
         
     }
 }
