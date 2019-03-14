@@ -29,6 +29,16 @@ public func routes(_ router: Router) throws {
         return try req.view().render("index")
     }
     
+    
+    router.get("oilpower") { req in
+        return try req.view().render("htmlTest")
+    }
+    
+    
+    router.get("oilpower2") { req in
+        return try req.view().render("htmlTest2")
+    }
+    
     router.get("welcome") { req -> Future<View> in
         let ctx = WelcomeContext(message: "Welcome to LeafTemplates!")
         return try req.view().render("index", ctx)
