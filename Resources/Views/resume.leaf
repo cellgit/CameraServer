@@ -80,7 +80,7 @@
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://www.jianshu.com/u/4adfcdce1900" style="color: #5AC8FA;">简书</a></p>
                     
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://kokora.herokuapp.com/resume" style="color: #5AC8FA;">简历: kokora.herokuapp.com/resume</a></p>
-                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 您可通过'简历'所呈现的网址打开此简历,简历利用Swift Vapor框架部署于Heroku, Database使用Postgresql</p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 您可通过'简历'所呈现的网址打开此简历,简历利用Swift Vapor框架将GitHub仓库代码部署于Heroku, Database使用Postgresql</p>
                     
                     
                     
