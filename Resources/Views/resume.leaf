@@ -70,8 +70,7 @@
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">学历: 本科</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">专业: 测控技术与仪器</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">院校: 安徽信息工程学院</p>
-                    
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">住址: 北京市昌平区</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">城市: 北京市</p>
                     
                     
                     <p></p>
@@ -97,6 +96,7 @@
                     <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">道友你好</p>
                     <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">英语魔方秀</p>
                     
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">其中: 享办、油站梦工厂、高护网、HUI安全是Swift项目， 道友你好和英语魔方秀是OC项目；享办、油站梦工厂和英语魔方秀可在App Store下载，高护网和HUI安全已完成测试。</p>
                 </section>
                 
                 <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
@@ -104,8 +104,9 @@
                     <hr width="700">
                     <br></br>
                     <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">任职公司: </p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;">北京舒望网络科技有限公司 (2018 - 2019)</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;">中亿互娱(北京)网络科技有限公司(2017 - 2018)</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;">1. 北京舒望网络科技有限公司</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;">2. 中亿互娱(北京)网络科技有限公司</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;">3. 魔方天空网络科技有限公司</p>
                     
                 </section>
                 
@@ -114,12 +115,12 @@
                     <hr width="700">
                     <br></br>
                     <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">项目经历: </p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">1. 享办: 办公场地租用服务的App. 技术点:支付宝,微信和银联支付; LBS开发, 单点登录, 文件上传等</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">2. 油站梦工厂: 新闻类App功能升级. 技术点: 语音识别等</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">3. 高护网: 护士找工作和学习类App. 技术点: 支付宝和微信支付,单点登录,微信和QQ登录,友盟分享,微吼直播,优惠券处理等</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">4. HUI安全: 语音识别,视频播放,推送通知等</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 道友你好</p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">6. 英语魔方秀</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">1. 享办: 办公场地租用服务的App。 在项目中承担地图、服务和个人中心d模块。地图模块主要功能是通过搜索查询地图上的annotationView实现地理位置找到办公大厦；服务模块主要是通过WKWebView加载web，通过和web交互找到相关的服务项目；个人中心主要包括注册登陆、实名认证、预约、评价、赠品、房源、服务、合同管理。核心技术点:支付宝,微信和银联支付; LBS开发, 单点登录, 文件上传等。</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">2. 油站梦工厂: 新闻类App功能升级。 升级内容包括首页新闻的油站驱动力、知性模块和一些bug修复。油站驱动力主要是使用WKWebView加载web，知行模块主要包括：对html文本的处理并用WebView显示；在WKWebView中进行语音转文字并和web进行交互；问答的提问和回答等功能。 核心技术点: 语音识别，html文本处理等。</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">3. 高护网: 护士找工作和学习类App。在项目中主要负责个人中心模块。包括：我的学习、常用功能、我的资产、交易记录、求职宝典等。 核心技术点: 支付宝和微信支付、单点登录、微信和QQ登录、友盟分享、微吼直播、银行卡绑定、优惠券处理和自定义日历等。</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">4. HUI安全: 负责整个App的开发工作。核心技术点：打卡签到、语音识别、视频播放、推送通知等。</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 道友你好: 负责游戏中LBS部分工作。包括：Unity的C#工程导出Objective-C工程，并实现和原生Xcode工程以及定位、云图检索、周边检索、关键字检索、点漫游、annotationView自定义添加、玩家排行榜、秘境等功能。</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">6. 英语魔方秀: 负责音频录制、录音打分和视频播放及部分模块构建。</p>
                 </section>
                 
                 <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
@@ -128,16 +129,19 @@
                     <br></br>
                     <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">个人技能: </p>
                     
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">1. 熟练使用Swift和OC</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">2. 熟练使用MVP和MVC模式进行项目开发，熟悉单例模式，观察者模式，代理等常用开发模式</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">3. 熟练使用Git进行项目管理</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">4. 代码重构，控件封装</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">5. 运用各种框架进行网络请求和数据加载</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">6. 能够快速学习并使用第三方库</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">7. 能够快速布局复杂界面</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">8. 熟练并快速手动或自动集成各种第三方商用SDK,比如：支付宝支付、微信支付、银联支付、高德地图、百度地图、友盟分享、极光推送; 熟悉Google地图、Facebook 登录、Google登录、Firebase授权,了解heroku服务器部署流程并且已经成功部署且同时利用Mob短信验证实现登录功能</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">9. CocoaPods管理各种第三方库</font></p>
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">10. 熟练并且成功使用Apple的AVPlayer封装类似Youtube部分功能的播放器</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">1. 熟练使用Swift和OC</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">2. 熟练使用MVP和MVC模式进行项目开发，熟悉单例模式，观察者模式，代理等常用开发模式</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">3. 熟练使用Git进行项目管理</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">4. 代码重构，控件封装</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">5. 运用各种框架进行网络请求和数据加载</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">6. 能够快速学习并使用第三方库</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">7. 能够快速布局复杂界面</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">8. 熟练并快速手动或自动集成各种第三方商用SDK,比如：支付宝支付、微信支付、银联支付、高德地图、百度地图、友盟分享、极光推送; 熟悉Google地图、Facebook 登录、Google登录、Firebase授权</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">9. CocoaPods管理各种第三方库</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">10. 熟练并且成功使用Apple的AVPlayer封装类似YouTube部分功能的播放器</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">11. 了解Swift语言后端开发框架Vapor和heroku服务器部署流程,并且已经成功部署且利用Mob短信验证实现登录功能</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">12. 了解Sketch,能够简单做UI设计</font></p>
+                    <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">12. 了解Unity，使用Unity工程和Xcode工程进行通信</font></p>
                     
                     <br></br>
                 </section>
