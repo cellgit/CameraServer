@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 
 
-
-
-
 <html>
 
     <body>
@@ -29,37 +26,42 @@
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">姓名: 刘宏立</p>
                     <p style="margin:0px; color: #000000;font-size: 16px;text-indent: 28px;line-height:220%">☎️: 18298269522</p>
                     <p style="margin:0px; color: #000000;font-size: 16px;text-indent: 28px;line-height:220%">📮: liuhongli2120@gmail.com</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">性别:男</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">年龄:29</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">性别: 男</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">年龄: 29</p>
                     
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">职位:iOS工程师</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">年龄:29</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">经验:4年</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">期望薪资:16k</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">职位: iOS工程师</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">经验:3年</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">期望薪资:15k</p>
                     
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">学历:本科</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">专业: 测控技术与仪器</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">院校: 安徽信息工程学院</p>
                     
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">住址:北京市昌平区</p>
-                    <p style="margin:0px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:220%" </a> <a href="https://github.com/cellgit" style="color: #5AC8FA;">GitHub</a></p>
-                    <p style="margin:0px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:220%" </a> <a href="http://cellgit.com/" style="color: #5AC8FA;">个人博客</a></p>
-                    <p style="margin:0px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:220%" </a> <a href="https://www.jianshu.com/u/4adfcdce1900" style="color: #5AC8FA;">简书</a></p>
                     
                     
+                    <p></p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">个人网站:</p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://github.com/cellgit" style="color: #5AC8FA;">GitHub</a></p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="http://cellgit.com/" style="color: #5AC8FA;">个人博客</a></p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://www.jianshu.com/u/4adfcdce1900" style="color: #5AC8FA;">简书</a></p>
                     
                     
+                    <p></p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">代码风格示例:</p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://github.com/cellgit/SWPlayer" style="color: #5AC8FA;">SwPlayer播放器</a></p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://github.com/cellgit/SketchCollege" style="color: #5AC8FA;">SketchCollege注册登录</a></p>
                     
                     
                     <p></p>
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">项目:</p>
-                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:20%" </a> <a href="https://itunes.apple.com/us/app//id1453824475?l=zh&ls=1&mt=8" style="color: #5AC8FA;">享办</a></p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://itunes.apple.com/us/app//id1453824475?l=zh&ls=1&mt=8" style="color: #5AC8FA;">享办</a></p>
                     
-                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:20%" </a> <a href="https://itunes.apple.com/us/app//id1003051027?l=zh&ls=1&mt=8" style="color: #5AC8FA;">油站梦工厂</a></p>
-                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:20%">高护网</p>
-                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:20%">HUI安全</p>
-                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:20%">道友你好</p>
-                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:20%">英语魔方秀</p>
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://itunes.apple.com/us/app//id1003051027?l=zh&ls=1&mt=8" style="color: #5AC8FA;">油站梦工厂</a></p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">高护网</p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">HUI安全</p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">道友你好</p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">英语魔方秀</p>
                     
                 </section>
                 
