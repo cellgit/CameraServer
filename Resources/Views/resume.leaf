@@ -116,7 +116,30 @@
                 </section>
                 
                 
+                
                 <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
+                    
+                    <hr width="700">
+                    <br></br>
+                    <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">开源项目: SWPlayer</p>
+                    
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">1. 设计语言: Swift</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">2. 设计思想: 区别于国内现有播放器的操作方式,以类似于YouTube播放器的操作方式实现视频播放</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">3. 设计功能: 直播流和点播视频播放</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">4. 播放模式: 直播、点播和广告模式</p>
+                        
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 操作方式: 通过Modal方式呈现播放器；双击播放器左侧快退，右侧快进；点击上一个和下一个切换播放源；全屏和小窗口播放，全屏和小窗口状态时功能按钮的显示和隐藏</p>
+                        
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 预留接口: 高度自定义接口，例如分享、更多</p>
+                        
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 若您通过Xcode运行SWPlayer代码,SWPlayer项目中您会看到央视和卫视直播,直播流是.m3u8格式</p>
+                </section>
+                
+                
+                
+                
+                <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
+                    
                     <hr width="700">
                     <br></br>
                     <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">项目经历: </p>
