@@ -79,12 +79,16 @@
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="http://cellgit.com/" style="color: #5AC8FA;">个人博客</a></p>
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://www.jianshu.com/u/4adfcdce1900" style="color: #5AC8FA;">简书</a></p>
                     
+                    <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://kokora.herokuapp.com/resume" style="color: #5AC8FA;">简历: kokora.herokuapp.com/resume</a></p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 您可通过'简历'所呈现的网址打开本简历</p>
+                    
+                    
                     
                     <p></p>
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">代码风格示例:</p>
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://github.com/cellgit/SWPlayer" style="color: #5AC8FA;">SWPlayer播放器</a></p>
                     <p style="margin:20px; color: #5AC8FA;font-size: 16px;text-indent: 28px;line-height:100%" </a> <a href="https://github.com/cellgit/SketchCollege" style="color: #5AC8FA;">SketchCollege注册登录</a></p>
-                    
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 您可通过GitHubd查看更多代码示例</p>
                     
                     <p></p>
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">项目:</p>
@@ -97,6 +101,7 @@
                     <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:100%">英语魔方秀</p>
                     
                     <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">其中: 享办、油站梦工厂、高护网、HUI安全是Swift项目， 道友你好和英语魔方秀是OC项目；享办、油站梦工厂和英语魔方秀可在App Store下载，高护网和HUI安全已完成测试。</p>
+                    <p style="margin:20px;color: #000000; font-size:16px; text-indent:28px; line-height:200%"><font size="2" face="arial" color="#999999">note: 期待您的下载</p>
                 </section>
                 
                 <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
@@ -142,6 +147,15 @@
                     <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">11. 了解Swift语言后端开发框架Vapor和heroku服务器部署流程,并且已经成功部署且利用Mob短信验证实现登录功能</font></p>
                     <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">12. 了解Sketch,能够简单做UI设计</font></p>
                     <p style="margin:20px; font-size: 16px; text-indent: 28px;"><font size="2" face="宋体" color="#666666">12. 了解Unity，使用Unity工程和Xcode工程进行通信</font></p>
+                    
+                </section>
+                
+                <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
+                    
+                    <hr width="700">
+                    <br></br>
+                    <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">万物归一: </p>
+                    <p style="margin:20px; color: #666666; font-size: 16px; text-indent: 28px;">技术狂热追求者</p>
                     
                     <br></br>
                 </section>
