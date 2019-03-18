@@ -6,7 +6,7 @@
 
 <html>
 
-    <body bgcolor="#000000">
+    <body>
         <div>
             
             <table  width="100%" align="center">
@@ -15,19 +15,14 @@
                     <td align="center"><p>个人简历</p>
                     </td>
                     <td >
-                        
                         <img src="https://avatars0.githubusercontent.com/u/24635226?s=460&v=4" width="130" height="130" alt="照片" align="right">
-                            </td>
-                    
+                    </td>
                 </tr>
-                
-                
             </table>
             
             <table  align="center" width="100%">
                 
                 
-                </section>
                 
                 <section data-autoskip="1" class="135brush" style="letter-spacing: 1.5px; line-height: 1.75em; color: rgb(51, 51, 51); padding: 1em;">
                     
@@ -100,7 +95,7 @@
     
     
     <head>
-        <title>liuhongli resume</title>
+        <title>刘宏立简历</title>
         <meta charset="utf-8">
             <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
                 
