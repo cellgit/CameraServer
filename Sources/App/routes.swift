@@ -29,6 +29,10 @@ public func routes(_ router: Router) throws {
         return try req.view().render("index")
     }
     
+    //resume_v1
+    router.get("resume") { req in
+        return try req.view().render("resume")
+    }
     
     router.get("oilpower") { req in
         return try req.view().render("htmlTest")
