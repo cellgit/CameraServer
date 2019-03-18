@@ -2,6 +2,40 @@
 
 
 <html>
+    
+    <head>
+        <title>刘宏立简历</title>
+        <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+                
+                <style>
+                    
+                    body{
+                        background: url(../img/bg2.jpg);
+                    }
+                
+                div{
+                    border:50px;
+                    border-radius: 5px;
+                    background: url(../img/b1.jpg);
+                    position: 80px;
+                    background-size: 100% auto;
+                    width: 65%;
+                    height: 100%;
+                    margin-left:auto;
+                    margin-right:auto
+                }
+                p{
+                    font-size:40px;
+                }
+                h4{
+                    font-size: 15px;
+                    padding-left: 26px;
+                </style>
+                
+                
+                </head>
+    
 
     <body>
         <div>
@@ -30,14 +64,14 @@
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">年龄: 29</p>
                     
                     <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">职位: iOS工程师</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">经验:3年</p>
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">期望薪资:15k</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">经验: 3年</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">期望薪资: 15k</p>
                     
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">学历:本科</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">学历: 本科</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">专业: 测控技术与仪器</p>
                     <p style="margin:0px; color: #444444;font-size: 16px;text-indent: 28px;line-height:220%">院校: 安徽信息工程学院</p>
                     
-                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">住址:北京市昌平区</p>
+                    <p style="margin:0px;color: #444444;font-size: 16px;text-indent: 28px;">住址: 北京市昌平区</p>
                     
                     
                     <p></p>
@@ -113,38 +147,7 @@
     </body>
     
     
-    <head>
-        <title>刘宏立简历</title>
-        <meta charset="utf-8">
-            <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
-                
-                <style>
-                    
-                    body{
-                        background: url(../img/bg2.jpg);
-                    }
-                
-                div{
-                    border:50px;
-                    border-radius: 5px;
-                    background: url(../img/b1.jpg);
-                    position: 80px;
-                    background-size: 100% auto;
-                    width: 65%;
-                    height: 100%;
-                    margin-left:auto;
-                    margin-right:auto
-                }
-                p{
-                    font-size:40px;
-                }
-                h4{
-                    font-size: 15px;
-                    padding-left: 26px;
-                </style>
-                
-                
-                </head>
+    
     
 </html>
 
