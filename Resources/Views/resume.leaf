@@ -142,7 +142,7 @@
                     
                     <hr width="700">
                     <br></br>
-                    <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">项目经历: </p>
+                    <p style="margin:0px; color: #333333; font-size: 16px; text-indent: 28px;">商业项目: </p>
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">1. 享办: 办公场地租用服务的App。 在项目中承担地图、服务和个人中心d模块。地图模块主要功能是通过搜索查询地图上的annotationView实现地理位置找到办公大厦；服务模块主要是通过WKWebView加载web，通过和web交互找到相关的服务项目；个人中心主要包括注册登陆、实名认证、预约、评价、赠品、房源、服务、合同管理。核心技术点:支付宝,微信和银联支付; LBS开发, 单点登录, 文件上传等。</p>
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">2. 油站梦工厂: 新闻类App功能升级。 升级内容包括首页新闻的油站驱动力、知性模块和一些bug修复。油站驱动力主要是使用WKWebView加载web，知行模块主要包括：对html文本的处理并用WebView显示；在WKWebView中进行语音转文字并和web进行交互；问答的提问和回答等功能。 核心技术点: 语音识别，html文本处理等。</p>
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">3. 高护网: 护士找工作和学习类App。在项目中主要负责个人中心模块。包括：我的学习、常用功能、我的资产、交易记录、求职宝典等。 核心技术点: 支付宝和微信支付、单点登录、微信和QQ登录、友盟分享、微吼直播、银行卡绑定、优惠券处理和自定义日历等。</p>
