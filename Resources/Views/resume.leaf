@@ -128,7 +128,7 @@
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">3. 设计功能: 直播流和点播视频播放</p>
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">4. 播放模式: 直播、点播和广告模式</p>
                         
-                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 操作方式: 通过Modal方式呈现播放器；双击播放器左侧快退，右侧快进；点击上一个和下一个切换播放源；全屏和小窗口播放，全屏和小窗口状态时功能按钮的显示和隐藏</p>
+                    <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 操作方式: 通过Modal方式呈现播放器；点播模式下双击播放器左侧快退，右侧快进；点击上一个和下一个切换播放源；全屏和小窗口播放，全屏和小窗口状态时功能按钮的显示和隐藏</p>
                         
                     <p style="margin:20px; color: #333333; font-size: 16px; text-indent: 28px;"><font size="2" face="arial" color="#666666">5. 预留接口: 高度自定义接口，例如分享、更多</p>
                         
