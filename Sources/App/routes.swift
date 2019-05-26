@@ -20,7 +20,12 @@ struct DisplayHotKeysContext: Encodable {
 public func routes(_ router: Router) throws {
     // Basic "It works" example
     router.get { req in
-        return "ありがとうございました!"
+//        return "ありがとうございました!"
+        return "From Beijing, China!"
+    }
+    
+    router.get("cc") { req in
+        return try req.view().render("cc")
     }
     
     

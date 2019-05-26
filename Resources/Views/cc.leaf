@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+
+
+<html>
+    
+    
+    <head>
+        <td align="center"><p style="color: #EED3ED;"><title>cc</title>
+            <meta charset="utf-8">
+                <link rel="stylesheet" type="text/css" href="../css/mystyle.css">
+                    
+                    <style>
+                        
+                        body{
+                            <!-- background: url(../img/bg2.jpg); -->
+                            
+                            background: url(../img/bg2.jpg);
+                        }
+                    
+                    div{
+                        border:50px;
+                        border-radius: 5px;
+                        background: url(../img/b1.jpg);
+                        position: 80px;
+                        background-size: 100% auto;
+                        width: 65%;
+                        height: 100%;
+                        margin-left:auto;
+                        margin-right:auto
+                    }
+                    p{
+                        font-size:40px;
+                    }
+                    h4{
+                        font-size: 15px;
+                        padding-left: 26px;
+                    </style>
+                    
+                    
+    </head>
+    
+    
+    <body>
+        <div>
+            
+            <table  width="100%" align="center">
+                <tr>
+                    <br></br>
+                    <td align="center"><p style="color: #FF2D55;">欧阳晓莹 · 叶翰宸</p>
+                    </td>
+                </tr>
+            </table>
+            
+            
+            
+            
+            
+            <br></br>
+            
+            </table>
+            <br></br>
+            
+            
+            <table  width="100%" align="center">
+                <tr><td align="center"><p style="margin:5px; color: #FF2D55; font-size: 40px; text-indent: 28px;">澳洲 · 中国</p></td></tr>
+            </table>
+            
+            
+            
+        </div>
+    </body>
+    
+    
+    
+    
+</html>
+
+
+
+
+
+
