@@ -27,20 +27,35 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     
     let databaseConfig:PostgreSQLDatabaseConfig
     
+    
     if let url = Environment.get("DATABASE_URL") {
 //        databaseConfig = try PostgreSQLDatabaseConfig(url: url)
         databaseConfig = PostgreSQLDatabaseConfig(url: url)!
     }
     else {
+        /// 在这里设置端口号
+        let serverConfigure = NIOServerConfig.default(hostname: "localhost", port: 8123)    // Server port
+        services.register(serverConfigure)
+        
+//        let serverConfig = NIOServerConfig.default(port: 8123)
+//        services.register(serverConfig)
+        
+//        databaseConfig = PostgreSQLDatabaseConfig(hostname: "localhost",
+//                                                  username: "liuhongli",
+//                                                  database: "postgres")
+        
         databaseConfig = PostgreSQLDatabaseConfig(hostname: "localhost",
-                                                  username: "postgres",
-                                                  database: "kokora")
+                                                  port: 5432,   // database port
+                                                  username: "liuhongli",
+                                                  database: "postgres")
+        
     }
     
     
     let database = PostgreSQLDatabase(config: databaseConfig)
     databases.add(database: database, as: .psql)
     services.register(databases)
+    
     
     
     

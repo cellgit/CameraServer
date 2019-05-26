@@ -18,7 +18,7 @@ extension PostgreSQLDatabaseConfig {
         var hostname = "127.0.0.1"
         var username = "vapor"
         var password = ""
-        var port = 5432
+        var port = 5433
         
         #if os(Linux)
         let manager = FileManager.default

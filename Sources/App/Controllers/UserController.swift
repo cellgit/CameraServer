@@ -247,7 +247,7 @@ extension UserController {
                         try Data(file.data).write(to: URL(fileURLWithPath: path))
                     }
                     
-                    let userInfo: UserInfo?
+                    var userInfo: UserInfo?
                     if var existInfo = existInfo { //存在则更新。
                         userInfo = existInfo.update(with: container)
                         
